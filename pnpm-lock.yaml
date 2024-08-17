@@ -1,0 +1,23 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@stripe/stripe-js':
+        specifier: ^4.3.0
+        version: 4.3.0
+
+packages:
+
+  '@stripe/stripe-js@4.3.0':
+    resolution: {integrity: sha512-bf8MxzzgD3dybtyIJUQSDMqxjEkJfsmj9IdRqDv609Zw08R41O7eoIy0f8KY41u8MbaFOYsn+XGJZtg1xwR2wQ==}
+    engines: {node: '>=12.16'}
+
+snapshots:
+
+  '@stripe/stripe-js@4.3.0': {}
